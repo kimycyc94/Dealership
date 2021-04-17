@@ -21,7 +21,7 @@ mongoose.connect('mongodb://localhost:27017/Dealership', {
 // Configure multer so that it will upload to '../front-end/public/images'
 const multer = require('multer')
 const upload = multer({
-  dest: '../front-end/public/images/',
+  dest: '/var/www/final.son-bts.com/images/',/*'../front-end/public/images/',*/
   limits: {
     fileSize: 10000000
   }
